@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Mon Oct  1 09:12:40 2018
+# Process ID: 6512
+# Current directory: C:/Users/Dara Ros/Downloads/Lab2-20180924T163605Z-001/Lab2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11004 C:\Users\Dara Ros\Downloads\Lab2-20180924T163605Z-001\Lab2\Lab2.xpr
+# Log file: C:/Users/Dara Ros/Downloads/Lab2-20180924T163605Z-001/Lab2/vivado.log
+# Journal file: C:/Users/Dara Ros/Downloads/Lab2-20180924T163605Z-001/Lab2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Dara Ros/Downloads/Lab2-20180924T163605Z-001/Lab2/Lab2.xpr}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 {{C:/Users/Dara Ros/Downloads/Lab2-20180924T163605Z-001/Lab2/Lab2.sim/sim_1/behav/xsim/glbl.v}}
+update_compile_order -fileset sim_1
+reset_simulation -simset sim_1 -mode behavioral
+export_ip_user_files -of_objects  [get_files {{C:/Users/Dara Ros/Downloads/Lab2-20180924T163605Z-001/Lab2/Lab2.srcs/sim_1/imports/xsim/glbl.v}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/Dara Ros/Downloads/Lab2-20180924T163605Z-001/Lab2/Lab2.srcs/sim_1/imports/xsim/glbl.v}}
+reset_simulation -simset sim_1 -mode behavioral
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 {{C:/Users/Dara Ros/Downloads/Lab2-20180924T163605Z-001/Lab2/Lab2.srcs/sim_1/new/main_tb.v}}
+update_compile_order -fileset sim_1
+launch_simulation
+update_compile_order -fileset sim_1
+launch_simulation
+source main_tb.tcl
+close_sim

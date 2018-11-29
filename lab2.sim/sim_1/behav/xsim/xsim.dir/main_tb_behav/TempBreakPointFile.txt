@@ -1,0 +1,2 @@
+Breakpoint File Version 1.0
+48 true C:/Users/Dara Ros/Documents/EECE6017C/Lab/lab2-20181001T171250Z-001/lab2/lab2.srcs/sources_1/new/main.v

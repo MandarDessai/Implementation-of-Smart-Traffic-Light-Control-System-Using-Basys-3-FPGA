@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Mon Oct 22 18:04:48 2018
+# Process ID: 18340
+# Current directory: C:/Users/Dara Ros/Google Drive/UCincy/FS18/EECE6017C/Lab/lab2 10-6-18/lab2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20104 C:\Users\Dara Ros\Google Drive\UCincy\FS18\EECE6017C\Lab\lab2 10-6-18\lab2\lab2.xpr
+# Log file: C:/Users/Dara Ros/Google Drive/UCincy/FS18/EECE6017C/Lab/lab2 10-6-18/lab2/vivado.log
+# Journal file: C:/Users/Dara Ros/Google Drive/UCincy/FS18/EECE6017C/Lab/lab2 10-6-18/lab2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Dara Ros/Google Drive/UCincy/FS18/EECE6017C/Lab/lab2 10-6-18/lab2/lab2.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Dara Ros/Documents/EECE6017C-Embedded Sys/Lab/lab2-20181001T171250Z-001/lab2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 815.930 ; gain = 99.824
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 22 18:06:57 2018...

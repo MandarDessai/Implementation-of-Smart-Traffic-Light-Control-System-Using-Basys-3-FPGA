@@ -1,0 +1,18 @@
+srcscan starts
+=============== Using vdb files for VHDL std libs ===========
+INFO: The vhdl library search path for library "std" is now "C:/Xilinx/Vivado/2018.2/data/precomp_hsv/vhdl/std" (VHDL-1505)
+INFO: The vhdl library search path for library "synopsys" is now "C:/Xilinx/Vivado/2018.2/data/precomp_hsv/vhdl/synopsys" (VHDL-1505)
+INFO: The vhdl library search path for library "ieee" is now "C:/Xilinx/Vivado/2018.2/data/precomp_hsv/vhdl/ieee" (VHDL-1505)
+INFO: The vhdl library search path for library "unimacro" is now "C:/Xilinx/Vivado/2018.2/data/precomp_hsv/vhdl/unimacro" (VHDL-1505)
+INFO: The vhdl library search path for library "unisim" is now "C:/Xilinx/Vivado/2018.2/data/precomp_hsv/vhdl/unisim" (VHDL-1505)
+INFO: The vhdl library search path for library "vl" is now "C:/Xilinx/Vivado/2018.2/data/precomp_hsv/vhdl/vl" (VHDL-1505)
+INFO: The vhdl library search path for library "xpm" is now "C:/Xilinx/Vivado/2018.2/data/precomp_hsv/vhdl/xpm" (VHDL-1505)
+INFO: analyzing module main (VERI-9002)
+C:/Users/DARARO~1/AppData/Local/Temp/VivadoEditorAssist8152259168953324605.tmp(22): INFO: Compiling verilog file "C:/Users/Dara Ros/Google Drive/UCincy/FS18/EECE6017C/Lab/Lab2/Lab2.srcs/sources_1/new/main.v" included at line 22. (VERI-9003)
+INFO: analyzing module main (VERI-9002)
+C:/Users/Dara Ros/Google Drive/UCincy/FS18/EECE6017C/Lab/Lab2/Lab2.srcs/sources_1/new/main.v(23): WARNING: overwriting previous definition of module main (VERI-1206)
+C:/Users/DARARO~1/AppData/Local/Temp/VivadoEditorAssist8152259168953324605.tmp(22): INFO: back to file C:/Users/DARARO~1/AppData/Local/Temp/VivadoEditorAssist8152259168953324605.tmp (VERI-2320)
+INFO: analyzing module main_tb (VERI-9002)
+C:/Users/DARARO~1/AppData/Local/Temp/VivadoEditorAssist8152259168953324605.tmp(39): WARNING: syntax error near endmodule (VERI-1137)
+C:/Users/DARARO~1/AppData/Local/Temp/VivadoEditorAssist8152259168953324605.tmp(39): ERROR: Verilog 2000 keyword endmodule used in incorrect context (VERI-2344)
+srcscan exits with return value 0
